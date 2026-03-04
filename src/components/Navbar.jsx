@@ -11,6 +11,13 @@ function Navbar() {
         <Link to="/">TN AUTOMATION</Link>
       </div>
 
+      {/* CENTER NAVIGATION LINKS */}
+      <div className="nav-links">
+        <Link to="/">Home</Link>
+        <Link to="/products">Products</Link>
+        <Link to="/services">Services</Link>
+      </div>
+
       {/* CENTER SEARCH BAR */}
       <div className="search-container">
         <input type="text" placeholder="What are you looking for ?" />

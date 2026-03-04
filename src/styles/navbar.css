@@ -26,6 +26,28 @@
   color: #fff;
 }
 
+/* NAV LINKS */
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #00c896;
+}
+
 /* SEARCH BAR */
 
 .search-container {
