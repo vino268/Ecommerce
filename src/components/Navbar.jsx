@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
 import { FaSearch, FaUser, FaShoppingCart } from "react-icons/fa";
+import { useCart } from "../context/CartContext";
 import "../styles/navbar.css";
 
 function Navbar() {
+  const { cartCount } = useCart();
+
   return (
     <nav className="navbar">
 
@@ -31,7 +34,7 @@ function Navbar() {
         </Link>
         <Link to="/cart" className="cart-icon">
           <FaShoppingCart />
-          <span className="cart-badge">0</span>
+          {cartCount > 0 && <span className="cart-badge">{cartCount}</span>}
         </Link>
       </div>
 

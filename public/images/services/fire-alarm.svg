@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fce4ec"/>
+      <stop offset="100%" style="stop-color:#f8bbd0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="12" fill="url(#bg)"/>
+  <!-- Control panel -->
+  <rect x="130" y="70" width="140" height="100" rx="6" fill="#e0e0e0" stroke="#bdbdbd" stroke-width="2"/>
+  <rect x="140" y="80" width="120" height="50" rx="3" fill="#c62828"/>
+  <text x="200" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">FIRE ALARM</text>
+  <!-- LED indicators -->
+  <circle cx="160" cy="148" r="5" fill="#f44336"/>
+  <circle cx="180" cy="148" r="5" fill="#ff9800"/>
+  <circle cx="200" cy="148" r="5" fill="#4caf50"/>
+  <circle cx="220" cy="148" r="5" fill="#4caf50"/>
+  <circle cx="240" cy="148" r="5" fill="#4caf50"/>
+  <!-- Smoke detector -->
+  <circle cx="100" cy="220" r="35" fill="#eeeeee" stroke="#bdbdbd" stroke-width="2"/>
+  <circle cx="100" cy="220" r="20" fill="#e0e0e0"/>
+  <circle cx="100" cy="220" r="8" fill="#f44336" opacity="0.6"/>
+  <!-- Smoke waves -->
+  <path d="M90 195 Q95 188 100 195" stroke="#9e9e9e" stroke-width="1.5" fill="none"/>
+  <path d="M85 188 Q95 178 105 188" stroke="#9e9e9e" stroke-width="1.5" fill="none"/>
+  <!-- Manual call point -->
+  <rect x="260" y="195" width="50" height="55" rx="4" fill="#c62828" stroke="#b71c1c" stroke-width="2"/>
+  <text x="285" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#ffffff">BREAK</text>
+  <text x="285" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#ffffff">GLASS</text>
+  <rect x="270" y="235" width="30" height="8" rx="2" fill="#ef5350"/>
+  <!-- Wires connecting -->
+  <line x1="130" y1="120" x2="100" y2="190" stroke="#d32f2f" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="270" y1="120" x2="285" y2="195" stroke="#d32f2f" stroke-width="2" stroke-dasharray="5,3"/>
+  <!-- Label -->
+  <text x="200" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#c62828">Fire Alarm System</text>
+  <text x="200" y="332" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#d32f2f">Smoke Detectors & Control Panel</text>
+  <text x="200" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e53935">₹3,500 per zone</text>
+</svg>

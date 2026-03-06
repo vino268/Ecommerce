@@ -3,7 +3,7 @@
 .login-full {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, #2c2c2c, #4a4a4a);
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,9 +60,9 @@ form input {
 }
 
 form input:focus {
-  border-color: #000;
+  border-color: #2c5364;
   background: #fff;
-  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 4px rgba(44, 83, 100, 0.1);
   outline: none;
 }
 
@@ -79,7 +79,7 @@ form input:focus {
 
 .login-options a {
   text-decoration: none;
-  color: #000;
+  color: #2c5364;
   font-weight: 500;
 }
 
@@ -96,7 +96,7 @@ form input:focus {
   border: none;
   border-radius: 12px;
 
-  background: #000;
+  background: linear-gradient(135deg, #0f2027 0%, #2c5364 100%);
   color: #fff;
 
   font-size: 16px;
@@ -107,7 +107,7 @@ form input:focus {
 }
 
 .login-btn:hover {
-  background: #333;
+  background: linear-gradient(135deg, #203a43 0%, #2c5364 100%);
   transform: translateY(-2px);
 }
 
@@ -152,7 +152,7 @@ form input:focus {
 }
 
 .register-form input:focus{
-  border-color:#000;
+  border-color:#2c5364;
 }
 
 /* CHECKBOX */

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3e5f5"/>
+      <stop offset="100%" style="stop-color:#e1bee7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="12" fill="url(#bg)"/>
+  <!-- EPABX Panel box -->
+  <rect x="100" y="80" width="200" height="160" rx="6" fill="#e0e0e0" stroke="#9e9e9e" stroke-width="2"/>
+  <text x="200" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4a148c">EPABX</text>
+  <!-- Extension slots -->
+  <rect x="120" y="115" width="60" height="15" rx="3" fill="#ce93d8"/>
+  <rect x="120" y="138" width="60" height="15" rx="3" fill="#ce93d8"/>
+  <rect x="120" y="161" width="60" height="15" rx="3" fill="#ce93d8"/>
+  <rect x="120" y="184" width="60" height="15" rx="3" fill="#ce93d8"/>
+  <rect x="220" y="115" width="60" height="15" rx="3" fill="#ce93d8"/>
+  <rect x="220" y="138" width="60" height="15" rx="3" fill="#ce93d8"/>
+  <rect x="220" y="161" width="60" height="15" rx="3" fill="#ce93d8"/>
+  <rect x="220" y="184" width="60" height="15" rx="3" fill="#ce93d8"/>
+  <!-- Status LEDs -->
+  <circle cx="125" cy="215" r="3" fill="#4caf50"/>
+  <circle cx="140" cy="215" r="3" fill="#4caf50"/>
+  <circle cx="155" cy="215" r="3" fill="#ff9800"/>
+  <!-- Phone icons -->
+  <rect x="60" y="260" width="30" height="45" rx="4" fill="#7b1fa2" stroke="#6a1b9a" stroke-width="1.5"/>
+  <rect x="64" y="265" width="22" height="30" rx="2" fill="#9c27b0"/>
+  <rect x="160" y="260" width="30" height="45" rx="4" fill="#7b1fa2" stroke="#6a1b9a" stroke-width="1.5"/>
+  <rect x="164" y="265" width="22" height="30" rx="2" fill="#9c27b0"/>
+  <rect x="260" y="260" width="30" height="45" rx="4" fill="#7b1fa2" stroke="#6a1b9a" stroke-width="1.5"/>
+  <rect x="264" y="265" width="22" height="30" rx="2" fill="#9c27b0"/>
+  <!-- Connection lines -->
+  <line x1="75" y1="260" x2="150" y2="240" stroke="#7b1fa2" stroke-width="2" stroke-dasharray="4"/>
+  <line x1="175" y1="260" x2="200" y2="240" stroke="#7b1fa2" stroke-width="2" stroke-dasharray="4"/>
+  <line x1="275" y1="260" x2="250" y2="240" stroke="#7b1fa2" stroke-width="2" stroke-dasharray="4"/>
+  <!-- Label -->
+  <text x="200" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#6a1b9a">EPABX Installation</text>
+  <text x="200" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7b1fa2">8 Channel Panel Setup</text>
+  <text x="200" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#9c27b0">₹1,500 per panel</text>
+</svg>

@@ -7,7 +7,7 @@ export const services = [
     category: "Installation",
     price: 500,
     priceType: "per camera",
-    image: "https://m.media-amazon.com/images/I/61bPKQkHILL._SL1500_.jpg",
+    image: "/images/services/cctv-installation.svg",
     description: "Professional installation of CCTV cameras with wiring and configuration",
     fullDescription: "Our expert technicians provide complete CCTV camera installation services. We handle everything from mounting cameras to running cables and configuring the system for optimal coverage. Each installation includes proper cable management, weatherproofing for outdoor cameras, and thorough testing.",
     features: [
@@ -32,7 +32,7 @@ export const services = [
     category: "Installation",
     price: 1000,
     priceType: "per unit",
-    image: "https://m.media-amazon.com/images/I/61Y0YK5X8xL._SL1500_.jpg",
+    image: "/images/services/nvr-dvr-setup.svg",
     description: "Complete NVR/DVR installation with hard drive setup and network configuration",
     fullDescription: "Complete installation and configuration service for your NVR/DVR unit. Our technicians will install the hard drive, configure recording schedules, set up remote viewing, and ensure all cameras are properly connected and recording.",
     features: [
@@ -58,7 +58,7 @@ export const services = [
     price: 1500,
     originalPrice: 1875,
     priceType: "per panel",
-    image: "https://m.media-amazon.com/images/I/71JQv3R9qxL._SL1500_.jpg",
+    image: "/images/services/epabx-installation.svg",
     description: "Installation of EPABX panel for intercom and communication systems",
     fullDescription: "Professional EPABX panel installation service for seamless internal communication. We handle complete wiring, extension setup, and configuration of all intercom features including call forwarding, conferencing, and external line management.",
     features: [
@@ -84,7 +84,7 @@ export const services = [
     price: 250,
     originalPrice: 313,
     priceType: "per point",
-    image: "https://m.media-amazon.com/images/I/61TLJbpZxWL._SL1500_.jpg",
+    image: "/images/services/cable-termination.svg",
     description: "Professional cable termination services for network and CCTV cables",
     fullDescription: "Expert cable termination service for all types of network and CCTV cables. We ensure proper crimping, testing, and certification of each termination point for reliable connectivity and optimal signal quality.",
     features: [
@@ -109,7 +109,7 @@ export const services = [
     category: "Installation",
     price: 2000,
     priceType: "per door",
-    image: "https://m.media-amazon.com/images/I/61xBVrPaWDL._SL1500_.jpg",
+    image: "/images/services/access-control.svg",
     description: "Complete access control system installation including biometric devices",
     fullDescription: "Comprehensive access control installation for secure entry management. We install and configure biometric devices, card readers, electromagnetic locks, and integrate with your existing security infrastructure for a complete access management solution.",
     features: [
@@ -134,7 +134,7 @@ export const services = [
     category: "Installation",
     price: 3500,
     priceType: "per zone",
-    image: "https://m.media-amazon.com/images/I/51W14Lq9tKL._SL1024_.jpg",
+    image: "/images/services/fire-alarm.svg",
     description: "Fire alarm system installation with smoke detectors and control panel",
     fullDescription: "Complete fire alarm system installation including smoke detectors, heat sensors, manual call points, and control panel configuration. Our certified technicians ensure compliance with fire safety regulations and proper integration with building management systems.",
     features: [
@@ -160,7 +160,7 @@ export const services = [
     category: "Annual Maintenance Contract",
     price: 5000,
     priceType: "per year",
-    image: "https://m.media-amazon.com/images/I/71NNtJjw4jL._SL1500_.jpg",
+    image: "/images/services/amc-basic.svg",
     description: "Annual maintenance for up to 4 cameras including 2 preventive visits",
     fullDescription: "Our Basic AMC package provides essential maintenance for small CCTV setups. Includes scheduled preventive maintenance visits, remote support, and discounted repair services to keep your security system running smoothly throughout the year.",
     features: [
@@ -185,7 +185,7 @@ export const services = [
     category: "Annual Maintenance Contract",
     price: 10000,
     priceType: "per year",
-    image: "https://m.media-amazon.com/images/I/71NNtJjw4jL._SL1500_.jpg",
+    image: "/images/services/amc-standard.svg",
     description: "Annual maintenance for up to 8 cameras including 4 preventive visits",
     fullDescription: "Our Standard AMC package is ideal for medium-sized installations. With quarterly preventive maintenance visits and comprehensive coverage, this plan ensures maximum uptime and optimal performance of your CCTV security system.",
     features: [
@@ -210,7 +210,7 @@ export const services = [
     category: "Annual Maintenance Contract",
     price: 20000,
     priceType: "per year",
-    image: "https://m.media-amazon.com/images/I/71NNtJjw4jL._SL1500_.jpg",
+    image: "/images/services/amc-premium.svg",
     description: "Annual maintenance for up to 16 cameras with unlimited support calls",
     fullDescription: "Our Premium AMC package offers comprehensive coverage for large installations. With monthly preventive visits, unlimited support calls, and significant discounts on replacements, this plan provides complete peace of mind for your security investment.",
     features: [
@@ -236,7 +236,7 @@ export const services = [
     price: 8000,
     originalPrice: 10000,
     priceType: "per year",
-    image: "https://m.media-amazon.com/images/I/71mG6fV8IaL._SL1500_.jpg",
+    image: "/images/services/sliding-gate-amc.svg",
     description: "Annual maintenance contract for automatic sliding gates",
     fullDescription: "Comprehensive annual maintenance for automatic sliding gates ensuring smooth operation and extended equipment life. Our service includes lubrication, motor inspection, sensor calibration, and safety system testing to prevent breakdowns.",
     features: [
@@ -262,7 +262,7 @@ export const services = [
     category: "Service Charges",
     price: 500,
     priceType: "per visit",
-    image: "https://m.media-amazon.com/images/I/71XWXUL77rL._SL1500_.jpg",
+    image: "/images/services/onsite-support.svg",
     description: "Technical support visit for troubleshooting and repair",
     fullDescription: "Professional on-site technical support for troubleshooting and resolving issues with your security systems. Our experienced technicians will diagnose problems, perform repairs, and ensure your system is back to optimal performance.",
     features: [
@@ -287,7 +287,7 @@ export const services = [
     category: "Service Charges",
     price: 200,
     priceType: "per session",
-    image: "https://m.media-amazon.com/images/I/61PKuATqvKL._SL1500_.jpg",
+    image: "/images/services/remote-support.svg",
     description: "Remote assistance for configuration and minor issues",
     fullDescription: "Quick and convenient remote technical support for software configuration, settings adjustment, and minor troubleshooting. Our technicians will connect remotely to resolve issues without the need for an on-site visit.",
     features: [

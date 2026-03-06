@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { products } from "../data/products";
+import { useCart } from "../context/CartContext";
 import "../styles/productDetail.css";
 
 function ProductDetail() {
   const { id } = useParams();
   const navigate = useNavigate();
+  const { addToCart } = useCart();
   const [quantity, setQuantity] = useState(1);
   const [activeTab, setActiveTab] = useState("features");
+  const [showToast, setShowToast] = useState(false);
 
   // Find the product by ID
   const product = products.find((p) => p.id === parseInt(id));
@@ -24,13 +27,14 @@ function ProductDetail() {
   }
 
   const handleAddToCart = () => {
-    // Add to cart logic here
-    alert(`Added ${quantity} x ${product.name} to cart!`);
+    addToCart(product, quantity);
+    setShowToast(true);
+    setTimeout(() => setShowToast(false), 2800);
   };
 
   const handleBuyNow = () => {
-    // Navigate to checkout
-    navigate("/checkout");
+    addToCart(product, quantity);
+    navigate("/cart");
   };
 
   return (
@@ -202,6 +206,12 @@ function ProductDetail() {
             ))}
         </div>
       </div>
+      {showToast && (
+        <div className="cart-toast">
+          <span className="toast-icon">✓</span>
+          {quantity} × {product.name} added to cart!
+        </div>
+      )}
     </div>
   );
 }

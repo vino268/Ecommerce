@@ -22,7 +22,7 @@
 }
 
 .breadcrumb span:hover:not(.separator):not(.current) {
-  color: #1976d2;
+  color: #2c5364;
 }
 
 .breadcrumb .separator {
@@ -49,7 +49,7 @@
 
 .product-not-found button {
   padding: 0.8rem 2rem;
-  background: #1976d2;
+  background: #2c5364;
   color: white;
   border: none;
   border-radius: 6px;
@@ -80,7 +80,7 @@
   position: absolute;
   top: 15px;
   left: 15px;
-  background: #e74c3c;
+  background: #2c5364;
   color: white;
   padding: 0.4rem 0.8rem;
   border-radius: 4px;
@@ -124,8 +124,8 @@
 
 .product-series {
   display: inline-block;
-  background: #e3f2fd;
-  color: #1976d2;
+  background: #dceef5;
+  color: #2c5364;
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
   font-size: 0.85rem;
@@ -282,12 +282,12 @@
 }
 
 .add-to-cart-btn {
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  background: linear-gradient(135deg, #0f2027 0%, #2c5364 100%);
   color: white;
 }
 
 .add-to-cart-btn:hover {
-  background: linear-gradient(135deg, #16213e 0%, #0f3460 100%);
+  background: linear-gradient(135deg, #203a43 0%, #2c5364 100%);
   transform: translateY(-2px);
 }
 
@@ -349,11 +349,11 @@
 }
 
 .tab-headers button:hover {
-  color: #1976d2;
+  color: #2c5364;
 }
 
 .tab-headers button.active {
-  color: #1976d2;
+  color: #2c5364;
 }
 
 .tab-headers button.active::after {
@@ -363,7 +363,7 @@
   left: 0;
   right: 0;
   height: 3px;
-  background: #1976d2;
+  background: #2c5364;
 }
 
 .tab-content {

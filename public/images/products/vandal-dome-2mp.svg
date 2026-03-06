@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa"/>
+      <stop offset="100%" style="stop-color:#e9ecef"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e9ecef"/>
+      <stop offset="100%" style="stop-color:#ced4da"/>
+    </linearGradient>
+    <radialGradient id="lens" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#495057"/>
+      <stop offset="60%" style="stop-color:#212529"/>
+      <stop offset="100%" style="stop-color:#000000"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" rx="12" fill="url(#bg)"/>
+  <!-- Vandal dome - heavier/sturdier look -->
+  <ellipse cx="200" cy="230" rx="130" ry="45" fill="#868e96" stroke="#6c757d" stroke-width="3"/>
+  <path d="M70 230 Q70 110 200 90 Q330 110 330 230" fill="url(#body)" stroke="#6c757d" stroke-width="3"/>
+  <!-- Reinforcement ring -->
+  <ellipse cx="200" cy="230" rx="125" ry="42" fill="none" stroke="#495057" stroke-width="2" stroke-dasharray="8,4"/>
+  <!-- Dome glass -->
+  <ellipse cx="200" cy="185" rx="75" ry="65" fill="#212529" opacity="0.85"/>
+  <ellipse cx="200" cy="185" rx="70" ry="60" fill="#343a40" opacity="0.65"/>
+  <!-- Lens -->
+  <circle cx="200" cy="195" r="28" fill="url(#lens)"/>
+  <circle cx="200" cy="195" r="18" fill="#495057" stroke="#6c757d" stroke-width="1"/>
+  <circle cx="200" cy="195" r="10" fill="#212529"/>
+  <circle cx="193" cy="188" r="4" fill="#ffffff" opacity="0.4"/>
+  <!-- IR LEDs -->
+  <circle cx="165" cy="175" r="4" fill="#dc3545" opacity="0.7"/>
+  <circle cx="235" cy="175" r="4" fill="#dc3545" opacity="0.7"/>
+  <circle cx="178" cy="158" r="3" fill="#dc3545" opacity="0.5"/>
+  <circle cx="222" cy="158" r="3" fill="#dc3545" opacity="0.5"/>
+  <!-- IK10 shield icon -->
+  <path d="M320 80 L340 90 L340 110 L330 120 L320 120 L310 110 L310 90 Z" fill="#ffc107" stroke="#e5a100" stroke-width="1.5"/>
+  <text x="325" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">IK10</text>
+  <!-- Label -->
+  <text x="200" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#495057">CP PLUS</text>
+  <text x="200" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6c757d">2MP Vandal Dome Camera</text>
+  <text x="200" y="348" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#868e96">40Mtr | Motorized Lens</text>
+  <!-- Badge -->
+  <rect x="290" y="20" width="90" height="28" rx="14" fill="#0d6efd"/>
+  <text x="335" y="39" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">2 MP</text>
+</svg>

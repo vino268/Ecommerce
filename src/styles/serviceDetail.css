@@ -17,7 +17,7 @@
 }
 
 .service-detail-page .breadcrumb a {
-  color: #1976d2;
+  color: #2c5364;
   text-decoration: none;
 }
 
@@ -58,7 +58,7 @@
   position: absolute;
   top: 1rem;
   right: 1rem;
-  background: #ff6b35;
+  background: #2c5364;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -75,7 +75,7 @@
 
 .service-title {
   font-size: 1.8rem;
-  color: #1a1a2e;
+  color: #0f2027;
   font-weight: 700;
   line-height: 1.3;
   margin: 0;
@@ -92,7 +92,7 @@
 .service-pricing .current-price {
   font-size: 2rem;
   font-weight: 700;
-  color: #1976d2;
+  color: #2c5364;
 }
 
 .service-pricing .original-price {
@@ -126,16 +126,16 @@
 }
 
 .service-duration {
-  background: #e3f2fd;
+  background: #dceef5;
   padding: 0.75rem 1rem;
   border-radius: 8px;
-  color: #1565c0;
+  color: #203a43;
   font-size: 0.95rem;
 }
 
 /* Book Service Button */
 .service-info-section .book-service-btn {
-  background: linear-gradient(135deg, #1976d2 0%, #1565c0 100%);
+  background: linear-gradient(135deg, #203a43 0%, #2c5364 100%);
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -148,7 +148,7 @@
 
 .service-info-section .book-service-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(25, 118, 210, 0.4);
+  box-shadow: 0 4px 15px rgba(44, 83, 100, 0.4);
 }
 
 .contact-info {
@@ -164,7 +164,7 @@
 }
 
 .contact-info a {
-  color: #1976d2;
+  color: #2c5364;
   text-decoration: none;
 }
 
@@ -192,7 +192,7 @@
 
 .detail-card h3 {
   font-size: 1.2rem;
-  color: #1a1a2e;
+  color: #0f2027;
   margin-bottom: 1rem;
   padding-bottom: 0.75rem;
   border-bottom: 2px solid #f0f0f0;
@@ -231,7 +231,7 @@
 
 .related-services h2 {
   font-size: 1.5rem;
-  color: #1a1a2e;
+  color: #0f2027;
   margin-bottom: 1.5rem;
 }
 
@@ -273,7 +273,7 @@
   padding: 0.25rem 1rem 1rem;
   font-size: 1rem;
   font-weight: 600;
-  color: #1976d2;
+  color: #2c5364;
 }
 
 /* Service Not Found */
@@ -294,7 +294,7 @@
 }
 
 .service-not-found button {
-  background: #1976d2;
+  background: #2c5364;
   color: white;
   border: none;
   padding: 0.75rem 1.5rem;

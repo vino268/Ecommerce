@@ -4,7 +4,7 @@
   width: 100%;
   height: 75px;
 
-  background: #000;
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 100%);
   color: #fff;
 
   display: flex;
@@ -45,7 +45,7 @@
 
 .nav-links a:hover {
   background: rgba(255, 255, 255, 0.1);
-  color: #00c896;
+  color: #5bc0be;
 }
 
 /* SEARCH BAR */
@@ -100,7 +100,7 @@
   top: -8px;
   right: -10px;
 
-  background: #00c896;
+  background: #2c5364;
   color: #fff;
   font-size: 11px;
 

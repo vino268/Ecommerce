@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0f7fa"/>
+      <stop offset="100%" style="stop-color:#b2ebf2"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="12" fill="url(#bg)"/>
+  <!-- Shield icon - larger -->
+  <path d="M200 55 L268 82 L268 168 L200 210 L132 168 L132 82 Z" fill="#00838f" stroke="#006064" stroke-width="2"/>
+  <path d="M200 70 L256 93 L256 160 L200 196 L144 160 L144 93 Z" fill="#0097a7"/>
+  <!-- Star inside shield -->
+  <polygon points="200,85 207,108 230,108 212,120 218,143 200,130 182,143 188,120 170,108 193,108" fill="#ffffff"/>
+  <!-- Camera icons - 8 cameras -->
+  <circle cx="75" cy="100" r="14" fill="#e0f7fa" stroke="#4dd0e1" stroke-width="2"/>
+  <circle cx="75" cy="100" r="5" fill="#00838f"/>
+  <circle cx="325" cy="100" r="14" fill="#e0f7fa" stroke="#4dd0e1" stroke-width="2"/>
+  <circle cx="325" cy="100" r="5" fill="#00838f"/>
+  <circle cx="75" cy="145" r="14" fill="#e0f7fa" stroke="#4dd0e1" stroke-width="2"/>
+  <circle cx="75" cy="145" r="5" fill="#00838f"/>
+  <circle cx="325" cy="145" r="14" fill="#e0f7fa" stroke="#4dd0e1" stroke-width="2"/>
+  <circle cx="325" cy="145" r="5" fill="#00838f"/>
+  <circle cx="75" cy="190" r="14" fill="#e0f7fa" stroke="#4dd0e1" stroke-width="2"/>
+  <circle cx="75" cy="190" r="5" fill="#00838f"/>
+  <circle cx="325" cy="190" r="14" fill="#e0f7fa" stroke="#4dd0e1" stroke-width="2"/>
+  <circle cx="325" cy="190" r="5" fill="#00838f"/>
+  <circle cx="135" cy="225" r="14" fill="#e0f7fa" stroke="#4dd0e1" stroke-width="2"/>
+  <circle cx="135" cy="225" r="5" fill="#00838f"/>
+  <circle cx="265" cy="225" r="14" fill="#e0f7fa" stroke="#4dd0e1" stroke-width="2"/>
+  <circle cx="265" cy="225" r="5" fill="#00838f"/>
+  <!-- STANDARD badge -->
+  <rect x="143" y="240" width="114" height="28" rx="14" fill="#00838f"/>
+  <text x="200" y="259" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">STANDARD</text>
+  <!-- Label -->
+  <text x="200" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#00695c">AMC - Standard</text>
+  <text x="200" y="332" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#00838f">Up to 8 Cameras | 4 Visits/Year</text>
+  <text x="200" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#0097a7">₹10,000 per year</text>
+</svg>

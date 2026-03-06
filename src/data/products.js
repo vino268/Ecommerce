@@ -13,7 +13,7 @@ export const products = [
     price: 2499,
     originalPrice: 3200,
     discount: 22,
-    image: "https://m.media-amazon.com/images/I/51qVZKnIWBL._SX522_.jpg",
+    image: "/images/products/dome-camera-2mp.svg",
     description: "2MP Network IR Dome Camera with 30 meter IR range",
     features: [
       "2 Megapixel Full HD Resolution",
@@ -48,7 +48,7 @@ export const products = [
     price: 2699,
     originalPrice: 3500,
     discount: 23,
-    image: "https://m.media-amazon.com/images/I/41a9DE9GhYL._SX522_.jpg",
+    image: "/images/products/bullet-camera-2mp-30m.svg",
     description: "2MP Network IR Bullet Camera with 30 meter IR range for outdoor surveillance",
     features: [
       "2 Megapixel Full HD Resolution",
@@ -83,7 +83,7 @@ export const products = [
     price: 3299,
     originalPrice: 4200,
     discount: 21,
-    image: "https://m.media-amazon.com/images/I/31lHVvUIQAL._SX522_.jpg",
+    image: "/images/products/bullet-camera-2mp-60m.svg",
     description: "2MP Network IR Bullet Camera with extended 60 meter IR range",
     features: [
       "2 Megapixel Full HD Resolution",
@@ -118,7 +118,7 @@ export const products = [
     price: 2899,
     originalPrice: 3700,
     discount: 22,
-    image: "https://m.media-amazon.com/images/I/41NwOW0h6EL._SX522_.jpg",
+    image: "/images/products/wedge-camera-2mp.svg",
     description: "2MP Network IR Wedge Camera with micro SD card support",
     features: [
       "2 Megapixel Full HD Resolution",
@@ -153,7 +153,7 @@ export const products = [
     price: 3599,
     originalPrice: 4500,
     discount: 20,
-    image: "https://m.media-amazon.com/images/I/41OvXGI6+xL._SX522_.jpg",
+    image: "/images/products/vandal-dome-2mp.svg",
     description: "2MP Network IR Vandal Dome Camera with motorized lens and 40m IR",
     features: [
       "2 Megapixel Full HD Resolution",
@@ -188,7 +188,7 @@ export const products = [
     price: 4299,
     originalPrice: 5500,
     discount: 22,
-    image: "https://m.media-amazon.com/images/I/51TGlHjU-0L._SX522_.jpg",
+    image: "/images/products/box-camera-2mp.svg",
     description: "2MP Full HD Network Box Camera for professional surveillance",
     features: [
       "2 Megapixel Full HD Resolution",
@@ -224,7 +224,7 @@ export const products = [
     price: 3499,
     originalPrice: 4500,
     discount: 22,
-    image: "https://m.media-amazon.com/images/I/51qVZKnIWBL._SX522_.jpg",
+    image: "/images/products/dome-camera-4mp.svg",
     description: "4MP Network IR Dome Camera with 30 meter IR range",
     features: [
       "4 Megapixel Ultra HD Resolution",
@@ -259,7 +259,7 @@ export const products = [
     price: 3699,
     originalPrice: 4800,
     discount: 23,
-    image: "https://m.media-amazon.com/images/I/41a9DE9GhYL._SX522_.jpg",
+    image: "/images/products/bullet-camera-4mp-30m.svg",
     description: "4MP IR Network Bullet Camera with 30 meter IR range",
     features: [
       "4 Megapixel Ultra HD Resolution",
@@ -294,7 +294,7 @@ export const products = [
     price: 4999,
     originalPrice: 6500,
     discount: 23,
-    image: "https://m.media-amazon.com/images/I/41OvXGI6+xL._SX522_.jpg",
+    image: "/images/products/vandal-dome-4mp.svg",
     description: "4MP Network IR Vandal Dome Camera with 50 meter IR range",
     features: [
       "4 Megapixel Ultra HD Resolution",
@@ -329,7 +329,7 @@ export const products = [
     price: 5499,
     originalPrice: 7000,
     discount: 21,
-    image: "https://m.media-amazon.com/images/I/41TXWiXHJaL._SX522_.jpg",
+    image: "/images/products/turret-camera-4mp.svg",
     description: "4MP IR AI Enforcement Camera with intelligent analytics",
     features: [
       "4 Megapixel Ultra HD Resolution",
@@ -364,7 +364,7 @@ export const products = [
     price: 4299,
     originalPrice: 5500,
     discount: 22,
-    image: "https://m.media-amazon.com/images/I/31lHVvUIQAL._SX522_.jpg",
+    image: "/images/products/bullet-camera-4mp-60m.svg",
     description: "4MP Network IR Bullet Camera with extended 60 meter IR range",
     features: [
       "4 Megapixel Ultra HD Resolution",
@@ -400,7 +400,7 @@ export const products = [
     price: 5999,
     originalPrice: 7500,
     discount: 20,
-    image: "https://m.media-amazon.com/images/I/41Ek2pDzMZL._SX522_.jpg",
+    image: "/images/products/nvr-4ch.svg",
     description: "4 Channel 4K Network Video Recorder with 1 SATA",
     features: [
       "4 Channel IP Input",
@@ -435,7 +435,7 @@ export const products = [
     price: 8499,
     originalPrice: 10500,
     discount: 19,
-    image: "https://m.media-amazon.com/images/I/41zWXMVDfTL._SX522_.jpg",
+    image: "/images/products/nvr-8ch.svg",
     description: "8 Channel 4K Network Video Recorder with 2 SATA",
     features: [
       "8 Channel IP Input",
@@ -470,7 +470,7 @@ export const products = [
     price: 12999,
     originalPrice: 16000,
     discount: 19,
-    image: "https://m.media-amazon.com/images/I/41kUeWi8bBL._SX522_.jpg",
+    image: "/images/products/nvr-16ch.svg",
     description: "16 Channel 4K Network Video Recorder with 2 SATA",
     features: [
       "16 Channel IP Input",
@@ -506,7 +506,7 @@ export const products = [
     price: 24999,
     originalPrice: 32000,
     discount: 22,
-    image: "https://m.media-amazon.com/images/I/41vV5BxnDRL._SX522_.jpg",
+    image: "/images/products/ptz-camera-2mp.svg",
     description: "2MP 20X Optical Zoom PTZ Network Camera with 100m IR",
     features: [
       "2 Megapixel Full HD",
@@ -541,7 +541,7 @@ export const products = [
     price: 35999,
     originalPrice: 45000,
     discount: 20,
-    image: "https://m.media-amazon.com/images/I/41r0MLVG7LL._SX522_.jpg",
+    image: "/images/products/ptz-camera-4mp.svg",
     description: "4MP 25X Optical Zoom PTZ Network Camera with 150m IR",
     features: [
       "4 Megapixel Ultra HD",
