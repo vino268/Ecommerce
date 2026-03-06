@@ -1,0 +1,173 @@
+/* ================= FULL BACKGROUND ================= */
+
+.login-full {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, #2c2c2c, #4a4a4a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ================= LOGIN CARD ================= */
+
+.login-card {
+  width: 520px;
+  padding: 60px 55px;
+
+  background: #ffffff;
+  border-radius: 20px;
+
+  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.25);
+
+  text-align: left;
+}
+
+/* ================= TITLE ================= */
+
+.login-card h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: #777;
+  margin-bottom: 35px;   /* 🔥 more space */
+}
+
+/* ================= FORM ================= */
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Inputs */
+
+form input {
+  padding: 16px 18px;
+  margin-bottom: 22px;
+
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+
+  font-size: 15px;
+  background: #f8f8f8;
+
+  transition: 0.3s ease;
+}
+
+form input:focus {
+  border-color: #000;
+  background: #fff;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.05);
+  outline: none;
+}
+
+/* ================= OPTIONS ================= */
+
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 14px;
+  margin-bottom: 28px;
+}
+
+.login-options a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.login-options label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ================= BUTTON ================= */
+
+.login-btn {
+  padding: 16px;
+  border: none;
+  border-radius: 12px;
+
+  background: #000;
+  color: #fff;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.login-btn:hover {
+  background: #333;
+  transform: translateY(-2px);
+}
+
+/* ================= REGISTER TEXT ================= */
+
+/* REGISTER CARD */
+
+.register-card{
+  width:500px;
+  max-height:80vh;
+  overflow-y:auto;
+  background:#fff;
+  padding:40px;
+  border-radius:15px;
+  box-shadow:0 20px 40px rgba(0,0,0,0.3);
+}
+
+/* FORM */
+
+.register-form{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.form-row{
+  display:flex;
+  gap:15px;
+}
+
+.form-row input{
+  flex:1;
+}
+
+/* INPUT */
+
+.register-form input{
+  padding:12px;
+  border-radius:8px;
+  border:1px solid #ddd;
+  outline:none;
+}
+
+.register-form input:focus{
+  border-color:#000;
+}
+
+/* CHECKBOX */
+
+.checkbox{
+  font-size:13px;
+  display:flex;
+  gap:8px;
+  align-items:flex-start;
+}
+
+/* PRIVACY TEXT */
+
+.privacy-text{
+  font-size:12px;
+  color:#666;
+  margin-top:15px;
+}
